@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calc.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+
+<body>
+    <div>
+        <h1>SIMPLE CALCULATOR</h1>
+        <div class="container">
+            <header id="screen"></header>
+            <div class="row1">
+                <button id="n" onclick="sendNum('1')">1</button>
+                <button id="n" onclick="sendNum('2')">2</button>
+                <button id="n" onclick="sendNum('3')">3</button>
+                <button id="v" onclick="sendNum('+')">+</button>
+            </div>
+            <div class="row2">
+                <button id="n" onclick="sendNum('4')">4</button>
+                <button id="n" onclick="sendNum('5')">5</button>
+                <button id="n" onclick="sendNum('6')">6</button>
+                <button id="v" onclick="sendNum('-')">-</button>
+            </div>
+            <div class="row2">
+                <button id="n" onclick="sendNum('7')">7</button>
+                <button id="n" onclick="sendNum('8')">8</button>
+                <button id="n" onclick="sendNum('9')">9</button>
+                <button id="v" onclick="sendNum('*')">X</button>
+            </div>
+            <div class="row2">
+                <button id="v" onclick="clearScr()">C</button>
+                <button id="n" onclick="sendNum('0')">0</button>
+                <button id="v" onclick="sendNum('/')">/</button>
+                <button id="v" onclick="equalTo()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
